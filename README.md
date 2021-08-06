@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Answer 1 - Semantic HTML is the usage of elements whose tags are descriptive of the content inside of them. When you see a <header> tag you know it is a header. A <div> is not semantic and is only used for styling purposes. Semantic tags make it clear to fellow engineers and to browsers what you are doing with the page.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+Answer 2 - Elements with display:block default to take up an entire row of the page while display:inline elements only take up as much space as they need so other items can be next to them. Block elements can accept a width property while inline elements cannot, so we use block to style the page layout.
 
 3. What are the 4 areas of the box model?
 
+Answer 3 - Content - the actual area taken up by the text or image. Padding - the blank area between the content and the border. Border - a border around the content and padding that we can give properties to like how thick it is, its design like solid or dotted, and its color. Margin - the blank space outside of the border.
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+Answer 4 - align-items work on the cross-axis, not the main axis. The main axis is determined by the flex-direction which defaults to row.
+
 5. Explain why git is valuable to a team of developers.
+
+Answer 5 - Git allows us to branch a project and work on code and then put it back together with the code that other engineers on the same project have contributed. It keeps track of all of the versions that people are working on so that the code can get merged back together, this makes projects go faster and with less problems.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
